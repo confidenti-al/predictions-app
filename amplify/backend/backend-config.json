@@ -1,17 +1,17 @@
 {
-	"auth": {
-		"predictionsapp071399cd": {
-			"service": "Cognito",
-			"providerPlugin": "awscloudformation",
-			"dependsOn": []
-		}
-	},
-	"predictions": {
-		"identifyText8d33cead": {
-			"providerPlugin": "awscloudformation",
-			"service": "RekognitionAndTextract",
-			"dependsOn": [],
-			"identifyType": "identifyText"
-		}
-	}
+    "auth": {
+        "predictionsapp071399cd": {
+            "service": "Cognito",
+            "providerPlugin": "awscloudformation",
+            "dependsOn": []
+        }
+    },
+    "predictions": {
+        "identifyText8d33cead": {
+            "providerPlugin": "awscloudformation",
+            "service": "RekognitionAndTextract",
+            "dependsOn": [],
+            "identifyType": "identifyText"
+        }
+    }
 }

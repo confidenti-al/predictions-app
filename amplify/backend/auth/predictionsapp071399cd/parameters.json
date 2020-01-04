@@ -1,6 +1,6 @@
 {
     "identityPoolName": "predictionsapp071399cd_identitypool_071399cd",
-    "allowUnauthenticatedIdentities": true,
+    "allowUnauthenticatedIdentities": false,
     "resourceNameTruncated": "predic071399cd",
     "userPoolName": "predictionsapp071399cd_userpool_071399cd",
     "autoVerifiedAttributes": [
@@ -44,12 +44,17 @@
             "Arn"
         ]
     },
-    "useDefault": "default",
+    "useDefault": "defaultSocial",
     "triggers": "{}",
     "userPoolGroupList": [],
     "parentStack": {
         "Ref": "AWS::StackId"
     },
     "permissions": [],
-    "dependsOn": []
+    "dependsOn": [],
+    "hostedUI": true,
+    "hostedUIDomainName": "",
+    "authProvidersUserPool": [],
+    "hostedUIProviderMeta": "[]",
+    "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"http://localhost:3000/\"],\"LogoutURLs\":[\"http://localhost:3000/\"]}"
 }

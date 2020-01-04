@@ -12,7 +12,9 @@
         },
         "categories": {
             "auth": {
-                "predictionsapp071399cd": {}
+                "predictionsapp071399cd": {
+                    "hostedUIProviderCreds": "[]"
+                }
             }
         }
     }

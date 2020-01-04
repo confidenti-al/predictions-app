@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import { withAuthenticator } from 'aws-amplify-react';
 import Amplify, { Predictions } from 'aws-amplify';
 import { AmazonAIPredictionsProvider } from '@aws-amplify/predictions';
 Amplify.addPluggable(new AmazonAIPredictionsProvider())
@@ -41,4 +41,4 @@ function TextIdentification() {
   );
 };
 
-export default TextIdentification;
+export default withAuthenticator(TextIdentification);

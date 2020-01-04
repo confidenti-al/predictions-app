@@ -9,6 +9,11 @@
             "UnauthRoleName": "amplify-predictions-app-dev-190222-unauthRole",
             "StackName": "amplify-predictions-app-dev-190222",
             "StackId": "arn:aws:cloudformation:us-west-2:715504511712:stack/amplify-predictions-app-dev-190222/7c28d400-2e85-11ea-b37a-0a78727c3cd0"
+        },
+        "categories": {
+            "auth": {
+                "predictionsapp071399cd": {}
+            }
         }
     }
 }

@@ -1,1 +1,9 @@
-{}
+{
+	"auth": {
+		"predictionsapp071399cd": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	}
+}
